@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kontaktna stran za Studio Glinaica" />
+  <meta name="keywords" content="studio, glina, kontakt, teaji" />
+  <meta name="author" content="Barbara Centrih" />
+  <title>Kontakt | Studio Glinaica</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo-title">
+      <h1>Studio Glinaica</h1>
+      <img src="images/logo.png" alt="Logo studia" class="logo">
+    </div>
+
+    <nav class="menu-grid">
+      <a href="index.html" class="menu-button">Domov</a>
+      <a href="tecaji.html" class="menu-button">Teaji</a>
+      <a href="galerija.html" class="menu-button">Galerija</a>
+      <a href="kontakt.html" class="menu-button">Kontakt</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="contact-grid">
+      <div class="form-section">
+        <h2>Piaite nam</h2>
+        <form>
+          <label for="name">Ime in priimek</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-poata</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Sporoilo</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit" disabled>Poalji</button>
+        </form>
+
+        <div class="logo-animation-box">
+          <iframe 
+            src="animacija/logo_animacija.html"
+            title="Studio Glinaica animacija"
+            width="600"
+            height="463"
+            style="border: none;">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="map-section">
+        <h2>Kje nas najdete</h2>
+
+        <div class="kontakt-podatki">
+          <p>Studio Glinaica, Ljubljana</p>
+          <p>socioclast@hotmail.com</p>
+          <p>041 123 456</p>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/" target="_blank">
+              <img src="images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img src="images/instagram.png" alt="Instagram" />
+            </a>
+          </div>
+        </div>
+
+        <div class="map-box">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.9341844321643!2d14.470759276497567!3d46.072353492656525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477acd4ecc76b667%3A0x97f684846d566580!2sUlica%20bratov%20U%C4%8dakar%2058%2C%201000%20Ljubljana!5e0!3m2!1ssl!2ssi!4v1751376723771!5m2!1ssl!2ssi" 
+            width="100%" 
+            height="250" 
+            style="border:0;" 
+            allowfullscreen 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" 
+            title="Lokacija Studia Glinaica">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Studio Glinaica  Barbara Centrih
+  </footer>
+
+</body>
+</html>
